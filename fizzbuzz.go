@@ -5,9 +5,9 @@ import (
 )
 
 func fizzbuzz(input int) string {
-	fizzbuzz := "fizzbuzz"
-	fizz := "fizz"
-	buzz := "buzz"
+	fizzbuzz := "FizzBuzz"
+	fizz := "Fizz"
+	buzz := "Buzz"
 
 	if input%15 == 0 {
 		return fizzbuzz
